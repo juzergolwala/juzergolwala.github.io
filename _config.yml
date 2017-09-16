@@ -1,6 +1,6 @@
 
 title: My Resume
-url: 'http://webjeda.com'
+url: 'http://akashmantry.github.io'
 baseurl: '/online-cv' #change it according to your repository name
 
 
@@ -13,17 +13,16 @@ baseurl: '/online-cv' #change it according to your repository name
 
 
 #Profile information
-name: Alan Doe
+name: Akash Mantry
 tagline: Full Stack Developer
-pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+pic: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
-email: hello@webjeda.com
-phone: 012 345 6789
-website: blog.webjeda.com #do not add http://
-linkedin: alandoe
-github: sharu725
-twitter: '@webjeda'
+email: amantry@umass.edu
+phone: 413 437 4525
+website: blogwithakash.appspot.com/ #do not add http://
+linkedin: akash-mantry-64631069/
+github: akashmantry
 
 
 # Tracker
