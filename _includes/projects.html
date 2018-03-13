@@ -3,6 +3,18 @@
 
                 <div class="item">
                     <div class="upper-row">
+                        <h3 class="job-title">Folfox-Network</h3>
+                        <div class="time">Mar 2018</div>
+                    </div>
+                    <div class="company">Social Network</div>
+                    <p>
+                        I created a social networking website featuring signup/login, wall, profile pages. The user can post and also comment and like on other people's posts. In the profile page the user can view/edit his profile, send and accept friend requests. Chatting is implemented using websockets. MongoDB serves as the database. The application is made in Node.js. I created docker image for the application and deployed it on Digital Ocean. The configuration involves 1 MongoDB server, 2 NodeJS application servers and 1 load balancer. I used a separate droplet for Rancher to manage the servers and to scale.
+                    </p>
+                    <p><b>Node.js, websockets, MongoDB, Docker, Rancher, Digital Ocean</b></p>
+                </div>
+
+                <div class="item">
+                    <div class="upper-row">
                         <h3 class="job-title">Mini-Pregel</h3>
                         <div class="time">Nov 2017</div>
                     </div>
@@ -10,7 +22,7 @@
                     <p>
                         I designed a multi-threaded graph analytics system modeled on Google’s Pregel. Given a graph, the system calculates the PageRank of all the vertices. The communication between vertices is achieved using message queues and synchronization using cyclic barriers.
                     </p>
-                    <p><b>Java, Multi-threading</b></p>   
+                    <p><b>Java, Multi-threading</b></p>
                 </div>
 
                 <div class="item">
@@ -22,7 +34,7 @@
                     <p>
                         I built a distributed word-count system consisting of master and many worker nodes. The master manages the workers - spawns/re-spawns them; does fault-tolerance by sending heartbeat messages every 3 seconds; and renders the final output. The workers communicate with master using sockets.
                     </p>
-                    <p><b>Java, Multi-processing</b></p>   
+                    <p><b>Java, Multi-processing</b></p>
                 </div>
 
                 <div class="item">
@@ -32,9 +44,9 @@
                     </div>
                     <div class="company">Tic-Tac-Toe games using MVC architecture</div>
                     <p>
-                        I designed a tic-tac-toe game using MVC architecture. The model, view and controller are decoupled such that replacement of a component doesn't effect the others. I used the Adapter Pattern to interface the view (grid of buttons) with the controller. 
+                        I designed a tic-tac-toe game using MVC architecture. The model, view and controller are decoupled such that replacement of a component doesn't effect the others. I used the Adapter Pattern to interface the view (grid of buttons) with the controller.
                     </p>
-                    <p><b>Java, Spring, MVC</b></p>   
+                    <p><b>Java, Spring, MVC</b></p>
                 </div>
 
                 <div class="item">
@@ -47,7 +59,7 @@
                         I created a simple search engine comprising of web-crawler, parser, indexer, tf-idf and PageRank, and MongoDB. The crawled pages were parsed using filtering techniques like stemming, stop word removal, etc. I used Cloudera VM running Hadoop MapReduce to index the pages. Ranking was then done using a combination of tf-idf and PageRank. The project was also deployed on an AWS EC2 instance using DynamoDb and S3 file storage.
                     </p>
                     <p><b>Python, Hadoop Map Reduce, MongoDB and AWS</b></p>
-                    <p><a href='https://github.com/akashmantry/FolfoxSearch'>Check it on Github</a></p>    
+                    <p><a href='https://github.com/akashmantry/FolfoxSearch'>Check it on Github</a></p>
                 </div>
 
                 <div class="item">
@@ -73,7 +85,7 @@
                         I created an Android music player application whose features like play/pause, volume control and switching to previous/next songs were controlled by hand gestures detected from Microsoft Band. The pipeline of segmentation, feature extraction and classification layers was implemented in Python. I employed socket programming and Plotly's JavaScript API to achieve data communication and visualization respectively.
                     </p>
                     <p><b> Python, Android and Plotly</b></p>
-                    <p><a href='https://github.com/akashmantry/GestureMusic'>Check it on Github</a></p>    
+                    <p><a href='https://github.com/akashmantry/GestureMusic'>Check it on Github</a></p>
                 </div>
 
                 <div class="item">
@@ -136,7 +148,7 @@
                     </div>
                     <div class="company">FA brief analysis of Google's QUIC protocol</div>
                     <p>
-                        I experimentally analyzed the performance of Google's QUIC protocol on GENI testbed. I used the proto-quic library for obtaining QUIC connections. The performance was tested by measuring download time of different files under bandwidth restriction, varied initial pacing rate, UDP and TCP cross-traffic and delays in transfer. Simulation of the project was done on GENI testbed to get real-time performance analysis. 
+                        I experimentally analyzed the performance of Google's QUIC protocol on GENI testbed. I used the proto-quic library for obtaining QUIC connections. The performance was tested by measuring download time of different files under bandwidth restriction, varied initial pacing rate, UDP and TCP cross-traffic and delays in transfer. Simulation of the project was done on GENI testbed to get real-time performance analysis.
                     </p>
                     <p><b> C++, GENI and Linux</b></p>
                 </div>
@@ -148,7 +160,7 @@
                     </div>
                     <div class="company">A blogging website</div>
                     <p>
-                        I created and designed the sign up, log in and blog creation pages. I then implemented wiki to allow users to edit blogs. The passwords were stored secure using sha256, random salt, and secret. The website was then deployed using Google App Engine. 
+                        I created and designed the sign up, log in and blog creation pages. I then implemented wiki to allow users to edit blogs. The passwords were stored secure using sha256, random salt, and secret. The website was then deployed using Google App Engine.
                     </p>
                     <p><b>Python, Jinja, Google App Engine, HTML, MaterializeCSS</b></p>
                     <p><a href='http://blogwithakash.appspot.com/'>Check it live</a></p>
