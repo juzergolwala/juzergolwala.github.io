@@ -1,28 +1,28 @@
 
 title: My Resume
-url: 'http://akashmantry.github.io'
-baseurl: '/' #change it according to your repository name
+url: 'https://juzergolwala.github.io'
+baseurl: '/resume' #change it according to your repository name
 
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
-style: styles-2
+#style: styles-2
 #style: styles-3
 #style: styles-4
-#style: styles-5
+style: styles-5
 #style: styles-6
 
 
 #Profile information
-name: Akash Mantry
-tagline: Full Stack Developer
+name: Juzer Mohammed Golwala
+tagline: Data/Back-end Engineer
 pic: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
-email: amantry@umass.edu
-phone: 413 437 4525
-website: blogwithakash.appspot.com/ #do not add http://
-linkedin: akash-mantry-64631069/
-github: akashmantry
+email: jgolwala@ucsd.edu
+phone: +1 (858) 319-5041
+#website: blogwithakash.appspot.com/ #do not add http://
+linkedin: juzergolwala
+github: juzergolwala
 
 
 # Tracker
