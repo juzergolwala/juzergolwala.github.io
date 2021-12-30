@@ -3,14 +3,26 @@
 
                 <div class="item">
                     <div class="upper-row">
-                        <h3 class="job-title">Folfox-Network</h3>
-                        <div class="time">Mar 2018</div>
+                        <h3 class="job-title">Recipe Cook and Rating Prediction Model</h3>
+                        <div class="time">November 2021</div>
                     </div>
-                    <div class="company">Social Network</div>
+                    <div class="company">University of California San Diego - Course Project</div>
+                    <div style="text-align: justify; text-justify:inter-word"> 
+
                     <p>
-                        I created a social networking website featuring signup/login, wall, profile pages. The user can post and also comment and like on other people's posts. In the profile page the user can view/edit his profile, send and accept friend requests. Chatting is implemented using websockets. MongoDB serves as the database. The application is made in Node.js. I created docker image for the application and deployed it on Digital Ocean. The configuration involves 1 MongoDB server, 2 NodeJS application servers and 1 load balancer. I used a separate droplet for Rancher to manage the servers and to scale.
+                      This project was implemented as a part of the course Recommender Systems and Web Mining. Using the data from Food.com,
+                      the first task was to predict whether a user would cook a recipe. Since data only consisted of entries where user had cooked a recipe 
+                      and given it some rating, for this task I performed negative sampling from the given dataset. Subsequently, I split
+                      the data into train and test set and using feature ablation studies I fit a logistic regression model on the test data using inbuilt 
+                      Python library. The accuracy achieved for this task was ~70%. <br>
+                      The second task was to predict the rating a user would give a recipe. For this task, I fit a latent factor model on the given 
+                      dataset yielding a Mean Squared Error ~0.8. <br>
+                      The solutions to both the tasks had to be uploaded on Kaggle (Username: Juzer Golwala)
                     </p>
-                    <p><b>Node.js, websockets, MongoDB, Docker, Rancher, Digital Ocean</b></p>
+                    <p><a href="https://www.kaggle.com/c/cse158258-cooking-prediction/">Task 1 Kaggle Competition Link</p>
+                    <p><a href="https://www.kaggle.com/c/cse258-recipe-rating-prediction">Task 2 Kaggle Competition Link</p>
+
+                 </div>
                 </div>
 
                 <div class="item">
