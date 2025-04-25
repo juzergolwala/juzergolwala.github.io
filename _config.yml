@@ -14,7 +14,7 @@ style: styles-2
 
 #Profile information
 name: Juzer Mohammed Golwala
-tagline: Data/Back-end Engineer
+tagline: Data Engineer
 pic: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
